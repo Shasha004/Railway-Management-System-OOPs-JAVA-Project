@@ -9,8 +9,8 @@ The **Railway Management System** is a comprehensive project developed in Java t
 ## Key Features
 
 - **Train Management**: Add and manage train details such as train number, name, source, destination, and schedule.
-- **Passenger Management**: Add, edit, and manage passenger information including name, contact details, and booking status.
-- **Trip Management**: Create and manage trips that correspond to specific trains, including trip timings, availability, and booking status.
+- **Passenger Management**: Add, edit, and manage passenger information including name, contact details, and email.
+- **Trip Management**: Create and manage trips that correspond to specific trains, including trip timings,start and destination ,price of the trip,driver Id,train name.
 - **Employee Management**: Add and manage employees, track their roles (e.g., conductors, station managers), and update employee details.
 - **Database Connectivity**: The project uses **JDBC** to connect to the **SQL database** for data storage and retrieval.
 - **Graphical User Interface (GUI)**: The system is designed with a user-friendly GUI built with **Swing** and **AWT** components, featuring **JFrame** and **JPanel** for navigation and user interaction.
@@ -72,14 +72,42 @@ The project utilizes a relational database with the following tables:
 
 ## Screenshots
 
-![Main Menu](screenshots/main_menu.png)
-*Main Menu of the Railway Management System.*
 
-![Add Train](screenshots/add_train.png)
-*Adding a new train.*
+![Main Window]([screenshots/main_menu.png](https://github.com/Shasha004/Railway-Management-System-OOPs-JAVA-Project/blob/2a62c40d9e496eb831c9d02220c7194a3f5b907c/RailwayManagementSystem_Main_Window.png))
+*Main Window of the Railway Management System.*
 
-![Edit Trip](screenshots/edit_trip.png)
+![Main and Modify Window](screenshots/edit_trip.pnghttps://github.com/Shasha004/Railway-Management-System-OOPs-JAVA-Project/blob/2a62c40d9e496eb831c9d02220c7194a3f5b907c/Main_and_Modif_Window.png)
+*Main and Modify Window*
+
+### **Add Trip**
+
+![Add Trip]([screenshots/edit_trip.png](https://github.com/Shasha004/Railway-Management-System-OOPs-JAVA-Project/blob/2a62c40d9e496eb831c9d02220c7194a3f5b907c/AddTripWindow.png))
+*Adding trip details.*
+
+### **Edit Trip**
+
+![Edit Trip]([screenshots/edit_trip.png](https://github.com/Shasha004/Railway-Management-System-OOPs-JAVA-Project/blob/2a62c40d9e496eb831c9d02220c7194a3f5b907c/EditTripWindow.png))
 *Editing trip details.*
+
+### **Add Passenger**
+
+![Add Passenger]([screenshots/add_passenger.png](https://github.com/Shasha004/Railway-Management-System-OOPs-JAVA-Project/blob/2a62c40d9e496eb831c9d02220c7194a3f5b907c/AddPassengerWindow.png))
+*Adding a new passenger.*
+
+### **Edit Passenger**
+
+![Edit Passenger]([screenshots/edit_passenger.png](https://github.com/Shasha004/Railway-Management-System-OOPs-JAVA-Project/blob/2a62c40d9e496eb831c9d02220c7194a3f5b907c/EditPassengerWindow.png))
+*Editing passenger details.*
+
+### **Add Employee**
+
+![Add Employee]([screenshots/add_employee.png](https://github.com/Shasha004/Railway-Management-System-OOPs-JAVA-Project/blob/2a62c40d9e496eb831c9d02220c7194a3f5b907c/AddEmployeesWindow.png))
+*Adding a new employee.*
+
+### **Edit Employee**
+
+![Edit Employee]([screenshots/edit_employee.png](https://github.com/Shasha004/Railway-Management-System-OOPs-JAVA-Project/blob/2a62c40d9e496eb831c9d02220c7194a3f5b907c/EditEmployeesWindow.png))
+*Editing employee details.*
 
 ---
 
@@ -90,14 +118,3 @@ The project utilizes a relational database with the following tables:
 - **Mobile Version**: Develop a mobile-friendly version of the application for broader access.
 - **Error Handling**: Add more robust error handling and validation for user inputs to improve the user experience.
 
----
-
-## License
-
-This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
-
----
-
-## Contributions
-
-If you'd like to contribute to this project, feel free to fork the repository, create a pull request, or report issues you encounter. All contributions are welcome!
